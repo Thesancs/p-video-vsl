@@ -2,11 +2,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: #000;
-  color: #fff;  font-family: Arial, sans-serif;
-  height: 100vh;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
 }
 
 main {
@@ -66,34 +68,12 @@ main {
   justify-content: center;
   align-items: center;
   gap: 6px;
-  HEAD
-  margin-bottom: 12px;
-
-  margin-top: 12px;
-  master
+  margin: 12px 0;
   text-align: center;
   width: 100%;
   font-size: 14px;
 }
 
-
-.video-wrapper {
-  padding: 10px;
-  border: 2px solid #ff0000;
-  box-shadow: 0 0 15px #ff0000;
-  border-radius: 8px;
-}
-
-
-.sound-icon {
-  width: 20px;
-  height: 20px;
-margin-bottom: 12px;
-margin-top: 12px;
-text-align: center;
-width: 100%;
-font-size: 14px;
-}
 
 .video-wrapper {
   padding: 10px;
